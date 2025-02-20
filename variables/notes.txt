@@ -1,0 +1,20 @@
+variables priority
+1. CLI
+  terraform plan -var="vname=vvalue"
+  terraform apply -var="vname=vvalue"
+
+2. vars.auto.tfvars  create file and provide variables 
+   vname = "vvalue"
+
+3 terraform.tfvars  create file and provide variables
+   vname = "vvalue"
+
+4. environmental variables
+ export TF_VAR_vname="vvalue"
+ unset  TF_VAR_vname
+
+5. default
+not found any of above 4 variables then it take default value
+
+6. ask in command prompt
+not found any of above 5 variables then it ask in cmd
