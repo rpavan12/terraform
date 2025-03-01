@@ -1,1 +1,1 @@
- type = "t3.small"
+type = "t3.small"
